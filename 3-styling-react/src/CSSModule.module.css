@@ -1,0 +1,19 @@
+/* CSS Module, 자동으로 고유한 클래스로 됨 */
+.wrapper {
+  background: black;
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.wrapper.inverted {
+  color: black;
+  background: white;
+  border: 1px solid black;
+}
+
+/* CSS Module, 글로벌 CSS 작성 */
+:global .something {
+  font-weight: 800;
+  color: aqua;
+}
